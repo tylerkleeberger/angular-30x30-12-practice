@@ -1,0 +1,20 @@
+<div class="courses-containers">
+    <!-- MAIN LIST -->
+    <div class="courses-list">
+        <app-plays-list
+        [plays]="plays$ | async"
+        (selected)="selectPlay($event)"
+        (deleted)="deletePlay($event)">
+        </app-plays-list>
+    </div>
+
+    <!-- DETAIL INTERFACE -->
+    <div class="course-details">
+        <app-play-details
+        [play]="selectedPlay"
+        (cancelled)="reset()"
+        (saved)="savePlay($event)">
+        </app-play-details>
+    </div>
+
+</div>

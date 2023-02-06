@@ -1,0 +1,40 @@
+{
+  "plays": [
+    {
+      "id": "1",
+      "title": "Cross",
+      "description": "Pass",
+      "favorite": "true"
+    },
+    {
+      "id": "2",
+      "title": "Snag",
+      "description": "Pass",
+      "favorite": "true"
+    },
+    {
+      "id": "3",
+      "title": "10/11",
+      "description": "Run",
+      "favorite": "true"
+    },
+    {
+      "id": "4",
+      "title": "Slice",
+      "description": "RPO",
+      "favorite": "false"
+    },
+    {
+      "id": "a_tDYCA",
+      "title": "Bubble",
+      "description": "RPO",
+      "favorite": false
+    },
+    {
+      "id": "oiAy_jn",
+      "title": "Missle",
+      "description": "RPO",
+      "favorite": true
+    }
+  ]
+}
